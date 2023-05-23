@@ -1,0 +1,25 @@
+{
+    "plugins": ["@typescript-eslint"],
+    "parserOptions": {
+        "tsconfigRootDir": "./",
+        "project": ["./tsconfig.json"]
+    },
+    "rules": {
+        "@typescript-eslint/no-explicit-any": "error",
+        // "@typescript-eslint/no-unsafe-call": "error",
+        "prefer-const": [
+            "error",
+            {
+                "destructuring": "all",
+                "ignoreReadBeforeAssign": false
+            }
+        ],
+        "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+        "@typescript-eslint/consistent-type-exports": "error",
+        "@typescript-eslint/consistent-type-imports": "warn",
+        "@typescript-eslint/no-namespace": "off",
+        "eol-last": ["error", "always"],
+        "no-multiple-empty-lines": ["warn", { "max": 1 }]
+    },
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"]
+}

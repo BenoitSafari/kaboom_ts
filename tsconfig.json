@@ -1,0 +1,22 @@
+{
+    "include": ["src/*"],
+    "exclude": ["dist", "node_modules"],
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["es2022", "DOM"],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "incremental": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "rootDir": "./",
+        "outDir": "./dist"
+    }
+}
