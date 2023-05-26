@@ -1,31 +1,31 @@
 export const loadGameSprites = () => {
-    loadSprite("sheet", "assets/sprites/AniaZelda-alt.png", {
+    loadSprite("sheet", "/AniaZelda-alt.png", {
         sliceX: 4,
         sliceY: 5,
     });
 
-    loadSprite("sword-sheet", "assets/sprites/sword-sheet.png", {
+    loadSprite("sword-sheet", "/sword-sheet.png", {
         sliceX: 4,
         sliceY: 1,
     });
 
-    loadSprite("skeleton", "assets/sprites/skeleton.png");
-    loadSprite("block", "assets/sprites/block.png");
-    loadSprite("bg", "assets/sprites/bg.png");
-    loadSprite("locked-door1", "assets/sprites/locked-door1.png");
-    loadSprite("locked-door2", "assets/sprites/locked-door2.png");
-    loadSprite("left-statue", "assets/sprites/left-statue.png");
-    loadSprite("right-statue", "assets/sprites/right-statue.png");
-    loadSprite("downstairs", "assets/sprites/downstairs.png");
-    loadSprite("upstairs", "assets/sprites/upstairs.png");
-    loadSprite("slicer", "assets/sprites/slicer.png");
-    loadSprite("key", "assets/sprites/key.png");
-    loadSprite("bomb", "assets/sprites/bomb.png");
-    loadSprite("boom", "assets/sprites/boom.png");
-    loadSprite("snake", "assets/sprites/snake.png");
-    loadSprite("bombable-block", "assets/sprites/bombable-block.png");
-    loadSprite("oldman", "assets/sprites/oldman.png");
-    loadSprite("hole", "assets/sprites/black.png");
-    loadSprite("door-open", "assets/sprites/black.png");
-    loadSprite("exit", "assets/sprites/black.png");
+    loadSprite("skeleton", "/skeleton.png");
+    loadSprite("block", "/block.png");
+    loadSprite("bg", "/bg.png");
+    loadSprite("locked-door1", "/locked-door1.png");
+    loadSprite("locked-door2", "/locked-door2.png");
+    loadSprite("left-statue", "/left-statue.png");
+    loadSprite("right-statue", "/right-statue.png");
+    loadSprite("downstairs", "/downstairs.png");
+    loadSprite("upstairs", "/upstairs.png");
+    loadSprite("slicer", "/slicer.png");
+    loadSprite("key", "/key.png");
+    loadSprite("bomb", "/bomb.png");
+    loadSprite("boom", "/boom.png");
+    loadSprite("snake", "/snake.png");
+    loadSprite("bombable-block", "/bombable-block.png");
+    loadSprite("oldman", "/oldman.png");
+    loadSprite("hole", "/black.png");
+    loadSprite("door-open", "/black.png");
+    loadSprite("exit", "/black.png");
 };

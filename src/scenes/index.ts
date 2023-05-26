@@ -1,5 +1,5 @@
-import dungeonScene from "./dungeon/dungeonScene.js";
-import gameloose from "./game/gameloose.js";
+import dungeonScene from "./dungeon/dungeonScene";
+import gameloose from "./game/gameloose";
 
 export const initScenes = () => {
     gameloose();

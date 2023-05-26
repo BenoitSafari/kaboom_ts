@@ -1,5 +1,5 @@
 import initKaboom from "kaboom";
-import { kaboomCfg } from "./config/kaboomCfg.js";
+import { kaboomCfg } from "./config/kaboomCfg";
 import { loadGameSprites } from "./config/loader";
 import { initScenes } from "./scenes/index";
 

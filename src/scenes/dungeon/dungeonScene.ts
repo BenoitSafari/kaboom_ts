@@ -1,7 +1,7 @@
 import type { Vec2 } from "kaboom";
-import { MOVE_SPEED, SKELETOR_SPEED, SLICER_SPEED, SNAKE_SPEED } from "../../config/contants.js";
-import { buildUI } from "../../services/gameUIService.js";
-import { dungeonConfig, dungeonMaps } from "./dungeonMaps.js";
+import { MOVE_SPEED, SKELETOR_SPEED, SLICER_SPEED, SNAKE_SPEED } from "../../config/contants";
+import { buildUI } from "../../services/gameUIService";
+import { dungeonConfig, dungeonMaps } from "./dungeonMaps";
 
 export default () => {
     scene("dungeon", ({ level, score, numBombs, numKeys }) => {
